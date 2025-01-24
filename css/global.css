@@ -28,7 +28,7 @@ img {
     max-width: 4ch;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .exp-subtitulo {
         font-size: 3rem;
         word-break:normal;
