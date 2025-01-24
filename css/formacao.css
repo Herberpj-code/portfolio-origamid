@@ -1,5 +1,5 @@
 .formacao {
-    background-color: #141414;
+    background: #141414;
     color: #fff;
 }
 
@@ -142,11 +142,11 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .formacao-container {
         grid-template-columns: 1fr;
-        justify-content: center;
-        gap: 20px;
+        padding: 60px 20px;
+        gap: 40px;
     }
     .formacao-extra h3::before {
         position:initial;
@@ -161,7 +161,7 @@
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 420px) {
     .formacao {
         max-width: 1200px;
         padding: 40px 20px;
